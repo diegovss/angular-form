@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import "~ionicons/dist/css/ionicons.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+$ionicons-font-path: "~ionicons/dist/fonts";
+.form-control.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
